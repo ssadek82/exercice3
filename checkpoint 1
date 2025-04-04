@@ -1,0 +1,52 @@
+# Exercice 3 - Quiz
+
+1. 
+```bash
+cut -d: -f1 /etc/passwd
+```
+
+2.
+```bash
+chmod 744 myfile
+```
+
+3.
+```bash
+echo "*.pdf" >> .gitignore
+```
+
+4.
+```bash
+git checkout main
+git merge test_valide
+```
+
+5.
+
+6.
+
+7.
+- Couche 2 : **Switch**
+  - Fonctionne avec les adresses MAC
+  - Transmet les trames dans le réseau local
+
+- Couche 3 : **Routeur**
+  - Fonctionne avec les adresses IP
+  - Permet la communication entre plusieurs réseaux
+
+8.
+Équivalent PowerShell     
+
+ cd : Set-Location (sl)        
+ cp : Copy-Item (cp)           
+ mkdir: New-Item -ItemType Directory 
+ ls : Get-ChildItem         
+
+9.
+Le **payload** est la partie utile de la trame Ethernet, c’est-à-dire les données transportées par le protocole.
+
+10.
+Les classes IP ont été remplacées par le **CIDR** pour permettre :
+- une meilleure granularité dans l’allocation des adresses
+- une utilisation plus efficace de l’espace d’adressage
+- la réduction du gaspillage d’adresses IP
